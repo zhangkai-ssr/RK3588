@@ -1,0 +1,19 @@
+[Unit]
+Description=Orange Pi sensor host (EMG + IMU TCP clients)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=orangepi
+Group=orangepi
+EnvironmentFile=/etc/default/sensor-host
+WorkingDirectory=/home/orangepi/sensor_host
+ExecStart=/home/orangepi/sensor_host/run_all.sh
+Restart=on-failure
+RestartSec=5
+StandardOutput=append:/var/log/sensor-host.log
+StandardError=append:/var/log/sensor-host.log
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,5 @@
+# /etc/default/sensor-host
+# Configuration for sensor-host.service.
+# Fill in your slave board's IP, then:
+#   sudo systemctl enable --now sensor-host.service
+SLAVE_IP=192.168.1.100

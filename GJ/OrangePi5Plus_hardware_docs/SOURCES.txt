@@ -1,0 +1,20 @@
+Board: Orange Pi 5 Plus / OrangePi 5 Plus v2.1
+
+Official download pages checked:
+- http://www.orangepi.cn/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-Pi-5-plus.html
+- http://www.orangepc.cn/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-Pi-5-plus-v2.1.html
+
+Official Baidu links shown by the pages:
+- Schematic: https://pan.baidu.com/s/1k2hgH9m7erZd9KM8ECjBbA?pwd=stin
+- Mechanical: https://pan.baidu.com/s/1wadU7pRefw4nRj5CdtlEEg?pwd=qafn
+
+Downloaded from GitHub mirror for direct access:
+- https://github.com/devdotnetorg/OrangePi5Plus/tree/master/Schematic
+- https://github.com/devdotnetorg/OrangePi5Plus/tree/master/Mechanical
+
+Files:
+- OPI5_PLUS_V11_20230519-GK_with watermark.pdf: schematic PDF
+- OPI-5PLUS-PCBA.rar: PCBA mechanical archive
+- OPI-5PLUS-PCBA.stp: extracted STEP model from the archive
+
+Note: no PCB CAD source or Gerber package was found in the official public links checked here.
