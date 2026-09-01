@@ -10,12 +10,15 @@
 | [`GJ/`](GJ/) | 系统安装与烧录脚本、Orange Pi 5 Plus 硬件资料、ADS1298 模块 SDK 和配套资料。 |
 | [`fwer/`](fwer/) | MIPI 摄像头转接、图像传感器规格书、Orange Pi 5 Plus 摄像头接口与 Wiki 快照。 |
 | [`RK3588头环WiFi扫描记录可行性确认.md`](RK3588头环WiFi扫描记录可行性确认.md) | RK3588 头环 Wi-Fi 扫描与记录方案的可行性确认。 |
+| [`AGENTS.md`](AGENTS.md) | 本仓库的目录边界、设备授权、证据分层、worktree 和验证规则。 |
+| [`plan.md`](plan.md) | direct 与 worktree 工作的简要记录。 |
 
 ## 开始工作
 
-1. 主机接收与数据分析从 `sensor_host/README.md` 开始。
-2. 系统部署与板卡资料从 `GJ/` 开始。
-3. 摄像头、MIPI 接口与传感器选型资料从 `fwer/` 开始。
+1. 先阅读 [`AGENTS.md`](AGENTS.md) 和 [`plan.md`](plan.md)，确认协作边界与当前工作记录。
+2. 主机接收与数据分析从 `sensor_host/README.md` 开始。
+3. 系统部署与板卡资料从 `GJ/` 开始。
+4. 摄像头、MIPI 接口与传感器选型资料从 `fwer/` 开始。
 
 ## Git LFS
 
